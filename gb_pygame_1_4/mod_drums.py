@@ -185,7 +185,7 @@ class DrumsClass:
         self.images['quit_button_pressed'] = GameObject(quit_pressed, (60, 60))
 
         # Load Drum Kit consisting of 2 tom-toms, 1 ride, 1 crash, 1 hi-hat, 1 bass, 1 floor tom and 1 snare drum
-        drums = pygame.image.load("resources/drums_screen/drum.png")
+        drums = pygame.image.load("resources/drums_screen/Drum.png")
         drums = pygame.transform.scale(drums, (889, 576))
         self.images['drums'] = GameObject(drums, (150, 90))
 
